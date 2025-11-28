@@ -1,2 +1,2 @@
 # IS-PRACTICAS
-Practicas de Ingenieria de Software
+Repositorio de Practicas de Ingenieria de Software
