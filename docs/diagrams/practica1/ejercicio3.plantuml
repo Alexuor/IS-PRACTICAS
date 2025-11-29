@@ -1,0 +1,8 @@
+/'Un disco duro está formado por pistas, y las pistas están formadas por sectores '/
+@startuml
+class disco_duro
+class pistas
+class sectores
+disco_duro *-- pistas: formado por
+pistas *-- sectores: formado por
+@enduml

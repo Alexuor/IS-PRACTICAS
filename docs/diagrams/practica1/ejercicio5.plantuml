@@ -1,0 +1,8 @@
+/'Un equipo de baseball está formado por jugadores y tienen asignado como homeclub un estadio'/
+@startuml
+class equipo_basebal
+class jugadores
+class estadio
+equipo_basebal *-- jugadores
+equipo_basebal -- estadio: homeclub
+@enduml

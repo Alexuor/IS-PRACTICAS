@@ -1,0 +1,10 @@
+/'Los estudiantes, los profesores y los empleados son personas'/
+@startuml
+abstract class personas
+class estudiantes
+class profesores
+class empleados
+estudiantes -up-|> personas
+profesores -up-|> personas
+empleados -up-|> personas
+@enduml
